@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 定义函数和调用函数
+      function hello() {
+        console.log("Hello World");
+      }
+      hello();
+
+      // 函数返回值
+      function hello_with_return() {
+        return "hello world return";
+      }
+      let value = hello_with_return();
+      console.log(value);
+
+      // 函数参数
+      function hello_with_params(params) {
+        console.log("hello, " + params);
+      }
+      hello_with_params("如花");
+    </script>
+  </body>
+</html>
